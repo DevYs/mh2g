@@ -35,15 +35,10 @@ rt
 </style>
 <![if !supportTabStrip]><script language="JavaScript">
 <!--
-function fnUpdateTabs()
- {
-  if (parent.window.g_iIEVer>=4) {
+function fnUpdateTabs() {
    if (parent.document.readyState=="complete"
     && parent.frames['frTabs'].document.readyState=="complete")
    parent.fnSetActiveSheet(1);
-  else
-   window.setTimeout("fnUpdateTabs();",150);
- }
 }
 
 if (window.name!="frSheet")
